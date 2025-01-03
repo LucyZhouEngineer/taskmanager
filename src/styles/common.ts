@@ -4,6 +4,12 @@ export const commonStyles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    minHeight: '100%',
+  },
+  backgroundImage: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
   },
   input: {
     borderWidth: 1,
