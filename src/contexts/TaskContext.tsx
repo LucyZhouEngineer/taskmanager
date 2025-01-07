@@ -23,6 +23,7 @@ export function TaskProvider({ children }: { children: React.ReactNode }) {
       description: "5 questions today", 
       status: "pending" 
     },
+
     { 
       id: "2", 
       title: "Sleep", 
@@ -39,6 +40,7 @@ export function TaskProvider({ children }: { children: React.ReactNode }) {
       description,
       status: "pending",
     };
+    
     setTasks((prev) => [...prev, newTask]);
   };
 
